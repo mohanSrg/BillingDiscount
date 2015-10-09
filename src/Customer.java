@@ -8,8 +8,8 @@ public class Customer {
 	public static void main(String args[]) throws Exception {
 		
 		Discount discount;
-		GoldCustomer gCustomer = new GoldCustomer();
-		SilverCustomer sCustomer = new SilverCustomer();
+		GoldCustomerDiscount gCustomer = new GoldCustomerDiscount();
+		SilverCustomerDiscount sCustomer = new SilverCustomerDiscount();
 		BufferedReader input = new BufferedReader(new InputStreamReader(
 				System.in));
 

@@ -1,5 +1,5 @@
 
-public class GoldCustomer extends Discount{
+public class GoldCustomerDiscount extends Discount{
 
 	@Override
 	public double getDiscount(double totalSales) {
